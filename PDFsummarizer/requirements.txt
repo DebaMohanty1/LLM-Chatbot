@@ -1,8 +1,0 @@
-streamlit
-langchain
-langchain-groq
-langchain-community
-langchain-core
-bs4
-langchain-text-splitters
-pypdf
