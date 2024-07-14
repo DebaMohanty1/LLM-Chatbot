@@ -30,7 +30,7 @@ if uploaded_file is not None:
         )
         
         # Load the summarize chain
-        chain = load_summarize_chain(llm, chain_type="stuff")
+        chain = load_summarize_chain(llm, chain_type="map_reduce")
         
         # Summarize the document
         result = chain.invoke(texts)
