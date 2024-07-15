@@ -6,3 +6,4 @@ langchain-core
 bs4
 langchain-text-splitters
 pypdf
+transformers
