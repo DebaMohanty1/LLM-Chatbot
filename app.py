@@ -22,11 +22,12 @@ if uploaded_file is not None:
         loader = PyPDFLoader("temp.pdf")
         texts = loader.load_and_split()
         
+        api_key = st.secrets['groq']['api-key']
         # Initialize the language model
         llm = ChatGroq(
             temperature=0,
             model="llama3-70b-8192",
-            api_key="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"
+            api_key=api_key
         )
         
         # Load the summarize chain
