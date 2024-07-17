@@ -25,7 +25,7 @@ if uploaded_file is not None:
         api_key = st.secrets['groq']['api-key']
         # Initialize the language model
         llm = ChatGroq(
-            temperature=0,
+            temperature=0.7,
             model="llama3-70b-8192",
             api_key=api_key
         )
