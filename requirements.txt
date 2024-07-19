@@ -7,3 +7,6 @@ bs4
 langchain-text-splitters
 pypdf
 transformers
+FAISS-cpu 
+sentence-transformers
+PyPDF2
