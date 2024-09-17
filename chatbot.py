@@ -93,7 +93,7 @@ def main():
 
         # If knowledge base exists, use it to generate a response
         if "knowledge_base" in st.session_state:
-            response = ask_question(prompt, st.session_state.knowledge_base, 'llama3-70b-8192', "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", st.session_state.messages)
+            response = ask_question(prompt, st.session_state.knowledge_base, 'llama3-70b-8192', "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", st.session_state.messages)
         else:
             response = f"Echo: {prompt}"
 
